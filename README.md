@@ -1,5 +1,33 @@
 # Orb Bound: Gesture-Based Idle RPG
 
+## Summary
+Orb Bound is a Java-based Android idle clicker game where players earn and upgrade Orbs through rapid tapping and strategic upgrades. The game focuses on progression systems, satisfying feedback (“juice”), and lightweight real-time rendering using a custom game loop.
+
+## Key Features
+- Tap-based idle/clicker core gameplay loop
+- Upgrade system with passive Orb generation
+- Combo and multiplier mechanics for scaling rewards
+- Custom 60 FPS SurfaceView game loop
+- Visual feedback effects including screen shake and particle bursts
+- Lightweight in-game economy and progression system
+
+## Tech Stack
+- Java
+- Android SDK
+- SurfaceView / Canvas rendering
+- GestureDetector (tap input handling)
+
+## My Role / What I Built
+- Designed and implemented full idle gameplay loop and progression system
+- Built upgrade economy and reward scaling mechanics
+- Developed custom rendering loop for smooth animations
+- Implemented visual feedback systems (particles, screen shake, UI effects)
+
+---
+
+
+## Full Details
+(Keep original README content below this section)
 ## Project Overview
 
 Orb Bound is a native Android game built entirely in Java, featuring a custom 60 FPS rendering engine and advanced multithreading. Moving beyond standard event-driven Android XML layouts, this project implements a continuous game loop utilizing Android's `SurfaceView` and `Canvas` APIs. 
