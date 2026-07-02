@@ -26,8 +26,8 @@ Orb Bound is a Java-based Android idle clicker game where players earn and upgra
 ---
 
 
-## Full Details
-(Keep original README content below this section)
+# Full Details
+
 ## Project Overview
 
 Orb Bound is a native Android game built entirely in Java, featuring a custom 60 FPS rendering engine and advanced multithreading. Moving beyond standard event-driven Android XML layouts, this project implements a continuous game loop utilizing Android's `SurfaceView` and `Canvas` APIs. 
